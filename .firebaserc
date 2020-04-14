@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "adm-crud": {
+      "hosting": {
+        "app": [
+          "adm-crud"
+        ]
+      }
+    }
+  }
+}
