@@ -6,7 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AngularFirestore } from '@angular/fire/firestore';
 
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs'; // TODO: 1. Pagina, No Video
 
 @Component({
   selector: 'app-root',

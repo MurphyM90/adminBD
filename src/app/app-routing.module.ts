@@ -8,8 +8,10 @@ const routes: Routes = [
     path: 'details/:id',
     loadChildren: () => import('./pages/todo-details/todo-details.module').then( m => m.TodoDetailsPageModule)
   },
-  { path: 'details', 
-    loadChildren:'./pages/todo-details/todo-details.module'}
+  { 
+    path: 'details', 
+    loadChildren: () => import('./pages/todo-details/todo-details.module').then( m => m.TodoDetailsPageModule)
+  }
 ];
 // TODO: En el video aparece así, aunque arriba esta de otra forma
 
