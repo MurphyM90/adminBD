@@ -13,7 +13,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/todo-details/todo-details.module').then( m => m.TodoDetailsPageModule)
   }
 ];
-// TODO: En el video aparece así, aunque arriba esta de otra forma
+
+// TODO: 4) Video - Como se mostrara el URL de la pagina - En el video aparece de otra manera
 
 @NgModule({
   imports: [

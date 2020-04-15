@@ -2,6 +2,8 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+// TODO: 1) Video - Conexión con la Base de Datos de Firebase
+
 export const environment = {
   production: false,
   firebaseConfig : {

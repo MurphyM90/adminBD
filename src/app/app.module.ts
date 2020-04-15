@@ -21,6 +21,8 @@ import { AngularFirestoreModule } from "angularfire2/firestore";
 //import { environment } from '../environments/environment';
 
 
+// TODO: 2) Video - Importacion de modulos necesarios e inicializar nuestra app con la configuracion de firebase
+
 
 @NgModule({
   declarations: [AppComponent],
